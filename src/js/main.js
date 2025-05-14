@@ -15,13 +15,13 @@ renderer.render(scene, camera);
 var geometry = new THREE.BoxGeometry(1, 1, 1);
 var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 var cube = new THREE.Mesh(geometry, material);
-cube.rotation.x = 0.8;
-cube.rotation.y = 0.8;
+cube.rotation.x = 0.3;
+cube.rotation.y = 0.3;
 scene.add(cube);
 renderer.render(scene, camera);
 
 function animate() {
-  cube.rotation.x += 0.05;
+  cube.rotation.x += 0.03;
   cube.rotation.y += 0.03;
 
   renderer.render(scene, camera);
