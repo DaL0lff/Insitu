@@ -13,7 +13,29 @@ video {
   display: block;
 }
 
+body {
+  background: #eee;
+}
+
 .element {
-  width: 800px;
-  height: 600px;
+  width: 1080px;
+  height: 1430px;
+}
+
+.screen {
+  width: 1080px;
+  height: 1920px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+h1 {
+  color: var(--black, #000);
+  text-align: center;
+  font-family: "Self Modern";
+  font-size: 100px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 300px;
 }
